@@ -8,7 +8,7 @@ ARG MEDIAWIKI_MINOR=1
 # PHP Installation.
 RUN apt-get update -y && \
     apt-get install -y curl && \
-    apt-get install -y php5-fpm php5-intl php-apc php5-gd php5-intl php5-mysqlnd php5-pgsql php-pear php5-cli && \
+    apt-get install -y php5-fpm php5-intl php-apc php5-gd php5-intl php5-mysqlnd php5-pgsql php-pear php5-cli php5-curl && \
     rm -rf /var/lib/apt/lists/* && \
     # Once we start using PHP, it will dictate the use of www-data, so use that instead of nginx
     sed -i 's/user  nginx/user  www-data/g' /etc/nginx/nginx.conf && \
