@@ -35,4 +35,4 @@ VOLUME ["/usr/share/nginx/html/images"]
 # Add the start script
 ADD start.sh /bin/start.sh
 
-CMD /bin/start.sh
+CMD chmod +x /bin/start.sh && /bin/start.sh
