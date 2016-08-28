@@ -10,7 +10,7 @@ others.
 
     docker run --name some-mediawiki -v /local/data/images:/usr/share/nginx/html/images \ 
                                      -v /local/data/extentions_to_install:/tmp/extensions \
-                                     -v /local/data/LocalSettings.php:/usr/share/nginx/html:LocalSettings.php:ro \
+                                     -v /local/data/LocalSettings.php:/usr/share/nginx/html/LocalSettings.php:ro \
                                      -d jdrbahamut/mediawiki
 
 
