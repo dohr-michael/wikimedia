@@ -1,3 +1,5 @@
+# Docker Image
+
 [![](https://images.microbadger.com/badges/image/jdrbahamut/wikimedia.svg)](http://microbadger.com/images/jdrbahamut/wikimedia "Badge provided by microbadger.com")
 
 # What is MediaWiki?
